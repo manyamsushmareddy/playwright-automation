@@ -9,7 +9,7 @@ test('Handle select dropdown', async ({ page }) => {
   await page.locator('[id="textarea"]').fill('Hitech city hyderabad');
   await page.locator('[id="female"]').click('female');
   await page.locator('[id="sunday"]').click('sunday','monday');
-  await page.locator('[id="country"]').selectOption('India');
+  await page.locator('[id="country"]').selectOption('canada');
   await page.locator('[id="colors"]').selectOption('yellow');
   await page.locator('[id="animals"]').selectOption('Cat');
 
