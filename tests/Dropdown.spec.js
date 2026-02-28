@@ -20,6 +20,7 @@ test('Handle select dropdown', async ({ page }) => {
   await page.locator('[placeholder="Start Date"]','01/01/2025');
   await page.locator('[placeholder="End Date"]','01/01/2027');
   await page.locator('[id="submit"]').click();
+  await page.locator('[placeholder="Start Date"]','01/01/2025');
 
   await page.waitForTimeout(5000);
 
